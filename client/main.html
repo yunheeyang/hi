@@ -1,0 +1,35 @@
+<head>
+    <title>hello</title>
+
+
+    <style>
+
+    </style>
+</head>
+<template name="layout">
+
+    <div class="container">
+
+        <!--<div class="container">-->
+        {{>navbar}}
+        <!--</div>-->
+        {{> yield}}
+        <br><br><br><br><br><br>
+
+
+
+        {{>center}}
+
+        <!--{{>footer}}-->
+        <!--{{>table}}-->
+        <!--{{>modal}}-->
+
+        <button id="btnMore" class="btn btn-default" type="submit">
+            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </button>
+
+        {{>newVi}}
+        {{>viModal}}
+
+    </div>
+</template>
